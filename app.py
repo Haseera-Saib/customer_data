@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd 
 import plotly.express as px
 
-data=pd.read_csv('/mentornow/Wholesale_customers_data.csv')
+data=pd.read_csv('mentornow/Wholesale_customers_data.csv')
 #st.write(data)
 
 st.header('Wholesale Customer Details')
